@@ -6,7 +6,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-// Necesita internet. Sin conexion imprime "Fallo de red: ..." (tambien es valido)
 public class ConsultaApi {
     public static void main(String[] args) {
         HttpClient cliente = HttpClient.newHttpClient();
